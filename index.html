@@ -18,16 +18,13 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header-border">
       <div class="container-header container">
-        <nav class="container">
+        <nav class="container-header">
+          <a class="header-logo link" href="#"
+            ><span class="logo">Web</span>Studio</a
+          >
           <ul class="header-list list">
-            <li>
-              <a class="header-logo link" href="#"
-                ><span class="logo">Web</span>Studio</a
-              >
-            </li>
-
             <li class="header-item">
               <a class="header-link link current" href="#">Студія</a>
             </li>
@@ -39,26 +36,26 @@
             </li>
           </ul>
         </nav>
-        <div class="container header-address">
-          <ul class="contacts-list list">
-            <li class="contacts-item">
-              <a class="header-mail link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contacts-item">
-              <a class="header-tel link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </div>
+        <ul class="contacts-list list">
+          <li class="contacts-item">
+            <a class="header-mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a class="header-tel link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <section class="main-hero container section">
-        <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
-        <button class="hero-btn" type="button">Замовити послугу</button>
+      <section class="main-hero section">
+        <div class="container">
+          <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
+          <button class="hero-btn" type="button">Замовити послугу</button>
+        </div>
       </section>
       <section class="peculiarities-section section">
         <div class="container">
@@ -95,7 +92,7 @@
         </div>
       </section>
       <section class="work-section">
-        <div class="container section">
+        <div class="container">
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="work-list list">
             <li class="work-item">
@@ -137,8 +134,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Ігор Дем'яненко</h3>
-              <p class="team-specialist" lang="en">Product Designer</p>
+              <div class="subscribe-photo">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
+                <p class="team-specialist" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -148,8 +147,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Ольга Рєпіна</h3>
-              <p class="team-specialist" lang="en">Frontend Developer</p>
+              <div class="subscribe-photo">
+                <h3 class="team-name">Ольга Рєпіна</h3>
+                <p class="team-specialist" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -159,8 +160,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Микола Тарасов</h3>
-              <p class="team-specialist" lang="en">Marketing</p>
+              <div class="subscribe-photo">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p class="team-specialist" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -170,15 +173,17 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Михайло Єрмаков</h3>
-              <p class="team-specialist" lang="en">UI Designer</p>
+              <div class="subscribe-photo">
+                <h3 class="team-name">Михайло Єрмаков</h3>
+                <p class="team-specialist" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="footer-container container section">
+    <footer class="footer section">
+      <div class="footer-container container">
         <a class="logo-footer-link link" href="logo"
           ><span class="logo-footer"> Web</span>Studio</a
         >
