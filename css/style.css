@@ -246,6 +246,7 @@ ul {
 }
 /*----Work section-----*/
 .work-section {
+  padding-bottom: 94px;
 }
 .work-title {
   margin-bottom: 50px;
@@ -398,10 +399,14 @@ ul {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 
   background-color: var(--background-color);
 }
 .portfolio-title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -416,12 +421,11 @@ ul {
 }
 /*--------FOOTER--------*/
 .footer {
-  background: var(--background-color-footer-main);
-  margin-top: 0px;
-}
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
+  background: var(--background-color-footer-main);
+}
+.footer-container {
 }
 .logo-footer-link {
   display: block;
